@@ -65,7 +65,7 @@ export default function AuthModal({ isOpen, onClose, onLoginExitoso, usuarios, o
       nombre: nombre.trim(),
       correo: correoLimpio,
       telefono: telefono.trim(),
-      rol: correoLimpio === 'profesor@duocuc.cl' ? 'Administrador' : 'Cliente',
+      rol: correoLimpio === 'administrador@duocuc.cl' ? 'Administrador' : 'Cliente',
       password
     };
 
