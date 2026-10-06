@@ -16,7 +16,14 @@ export default function FlorCard({ flor, onAgregarAlCarrito, onVerDetalle }) {
   return (
     <div className="card h-100 card-flor-item">
       <div className="img-wrapper" onClick={() => onVerDetalle(flor)} style={{ cursor: 'pointer' }}>
-        <img src={flor.imagen} alt={flor.nombre} />
+        <img   src={flor.imagen}
+  alt={flor.nombre}
+  onError={(e) => {
+    console.log("ERROR IMAGEN:", flor.nombre, flor.imagen);
+  }}
+  onLoad={() => {
+    console.log("IMAGEN CARGADA:", flor.nombre, flor.imagen);
+  }}/>
         <span className="position-absolute top-0 start-0 m-3 badge bg-white text-dark shadow-sm">
           {flor.categoria}
         </span>

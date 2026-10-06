@@ -38,19 +38,19 @@ export const floresIniciales = [
     descripcion: "6 girasoles grandes seleccionados con margaritas silvestres y lazo de rafia natural.",
     cuidados: "Requiere agua abundante y luz indirecta brillante."
   },
-  {
-    id: 4,
-    codigo: "FLOR-004",
-    nombre: "Orquídea Phalaenopsis Doble Vara Blanca",
-    categoria: "Orquídeas",
-    precio: 36990,
-    stock: 2,
-    stockCritico: 2,
-    ocasion: "Aniversario",
-    imagen: "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=600&auto=format&fit=crop&q=80",
-    descripcion: "Planta de orquídea viva en maceta de cerámica esmaltada. Florece por más de 3 meses.",
-    cuidados: "Regar una vez por semana con 50ml de agua sin encharcar."
-  },
+{
+  id: 4,
+  codigo: "FLOR-004",
+  nombre: "Orquídea Phalaenopsis Doble Vara Blanca",
+  categoria: "Orquídeas",
+  precio: 36990,
+  stock: 2,
+  stockCritico: 2,
+  ocasion: "Aniversario",
+  imagen: "https://www.floraflor.cl/assets/store/product-gallery/orquidea-blanca-con-centro-amarillo-sa2001/01-1440.webp",
+  descripcion: "Planta de orquídea viva en maceta de cerámica esmaltada. Florece por más de 3 meses.",
+  cuidados: "Regar una vez por semana con 50ml de agua sin encharcar."
+},
   {
     id: 5,
     codigo: "FLOR-005",
@@ -64,19 +64,19 @@ export const floresIniciales = [
     descripcion: "Combinación de gerberas, lisianthus, lirios y toques de lavanda silvestre perfumada.",
     cuidados: "Retirar hojas sumergidas para evitar bacterias."
   },
-  {
-    id: 6,
-    codigo: "FLOR-006",
-    nombre: "Corona Fúnebre Serenidad de Lirios",
-    categoria: "Condolencias",
-    precio: 49990,
-    stock: 5,
-    stockCritico: 2,
-    ocasion: "Condolencias",
-    imagen: "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&auto=format&fit=crop&q=80",
-    descripcion: "Arreglo solemne de lirios blancos, rosas y claveles con pedestal y cinta dedicatoria.",
-    cuidados: "Base de esponja floral húmeda incluida."
-  }
+{
+  id: 6,
+  codigo: "FLOR-006",
+  nombre: "Corona Fúnebre Serenidad de Lirios",
+  categoria: "Condolencias",
+  precio: 49990,
+  stock: 5,
+  stockCritico: 2,
+  ocasion: "Condolencias",
+  imagen: "https://floristeriapasto.com/wp-content/uploads/sites/37/2026/01/corona-funeraria-refugio-paz-lirios-rosas-ky3ei72u-540x540.jpg.webp",
+  descripcion: "Arreglo solemne de lirios blancos, rosas y claveles con pedestal y cinta dedicatoria.",
+  cuidados: "Base de esponja floral húmeda incluida."
+}
 ];
 
 export const comunasSantiago = [
@@ -224,4 +224,4 @@ export const blogInicial = [
     ]
   }
 ];
-
+

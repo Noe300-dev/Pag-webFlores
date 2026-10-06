@@ -2,7 +2,7 @@ import React from 'react';
 import FlorCard from './FlorCard';
 
 export default function Home({ flores, onAgregarAlCarrito, onVerDetalle, setPaginaActual }) {
-  const destacadas = flores.slice(0, 3);
+  const destacadas = flores.slice(0, 6);
 
   return (
     <div className="container py-4">
@@ -11,7 +11,7 @@ export default function Home({ flores, onAgregarAlCarrito, onVerDetalle, setPagi
         <div className="row align-items-center g-4">
           <div className="col-lg-7">
             <span className="badge bg-danger-subtle text-danger px-3 py-2 rounded-pill fw-bold mb-3">
-              🌸 Flores Frescas de Temporada
+               Flores Frescas de Temporada
             </span>
             <h1 className="display-4 fw-bold font-serif text-dark mb-3">
               Envía sonrisas y momentos inolvidables
